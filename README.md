@@ -42,12 +42,10 @@ Foram usadas a metrica IoU (Intersection over union) para avaliar o modelo de se
 Para realizar a inferência do modelo de segmentação pré-treinado no conjunto de teste , execute:
 
 ```bash
-!python main_detection.py \
- --weight_folder "your_path/files_yolov4/" \
- --path_rgb_image "your_path/img_rgb_detection/" \
- --res_dir "your_path/results_object_detection"
+!python main_segmentation.py \
+ --files_unet "your_path/files_unet/" \
+ --res_dir "your_path/results_object_segmentation/"
 ```
-
 ## Resultados qualitativos da segmentação de parafusos
 <p align="center">
   <img width="400" height="200" src="result_object_segmentation/result_1.PNG">
