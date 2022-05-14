@@ -18,6 +18,13 @@ pip install -r requirements.txt
 ## Métricas do Modelo de Detecção (YOLOv4 - Darknet)
 Foram usadas as mtricas de Coco para avaliar o modelo de detecção.
 
+| Modelo        | TP            | FP             | mAP (%) | 
+| ------------- |:-------------:| :-------------:|-----:   |
+| YOLOv4        | 60            | 54             |    70   |
+
+
+
+
 ## Inferência 
 Para realizar a inferência do modelo de detecção pré-treinado no conjunto de teste , execute:
 
