@@ -18,7 +18,6 @@ conda activate myenv
 Requerimentos de instalação 
 
 ```bash
-pip install -r requirements.txt
 conda install -c fastai -c pytorch -c anaconda -c conda-forge fastai gh anaconda
 conda install -c fastai fastai
 conda install -c conda-forge imutils
