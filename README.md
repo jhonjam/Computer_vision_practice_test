@@ -58,6 +58,13 @@ Para realizar a inferência do modelo de segmentação pré-treinado no conjunto
   <img width="200" height="200" src="result_object_segmentation/result_2.PNG">
 </p>
 
+<p align="center">
+  <img width="200" height="200" src="result_object_segmentation/parafuso_pos_cor__3.png">
+</p>
+
+<p align="center">
+  <img width="200" height="200" src="result_object_segmentation/parafuso_pos_bin__3.png">
+</p>
 
 
 # Modelo de Detecção de objetos
