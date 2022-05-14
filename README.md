@@ -21,7 +21,7 @@ Foram usadas as mtricas de Coco para avaliar o modelo de detecção.
 | Modelo - YOLOv4        | TP            | FP             | mAP (%) | 
 | ------------- |:-------------:| :-------------:|-----:|
 | Cantarelo        | 60            | 54             |70|
-| Chicken        | 60            | 54             |70|
+| CoW        | 60            | 54             |70|
 
 
 
