@@ -18,9 +18,10 @@ pip install -r requirements.txt
 ## Métricas do Modelo de Detecção (YOLOv4 - Darknet)
 Foram usadas as mtricas de Coco para avaliar o modelo de detecção.
 
-| Modelo        | TP            | FP             | mAP (%) | 
+| Modelo - YOLOv4        | TP            | FP             | mAP (%) | 
 | ------------- |:-------------:| :-------------:|-----:|
-| YOLOv4        | 60            | 54             |70|
+| Cantarelo        | 60            | 54             |70|
+| Chicken        | 60            | 54             |70|
 
 
 
@@ -34,4 +35,6 @@ Para realizar a inferência do modelo de detecção pré-treinado no conjunto de
  --path_rgb_image "your_path/img_rgb_detection/" \
  --res_dir "your_path/results_object_detection"
 ```
+
+## Resultados da detecção de cogumelos
 
