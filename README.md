@@ -13,6 +13,36 @@ Requerimentos de instalação
 pip install -r requirements.txt
 ```
 
+# Modelo de Segmentação semantica
+
+## Métricas do Modelo de segmentação (Unet)
+Foram usadas a metrica IoU (Intersection over union) para avaliar o modelo de segmentação.
+
+| Modelo        | IoU (%) | 
+| ------------- |-----:|
+| Unet         |70|
+
+
+
+
+
+## Inferência 
+Para realizar a inferência do modelo de segmentação pré-treinado no conjunto de teste , execute:
+
+```bash
+!python main_detection.py \
+ --weight_folder "your_path/files_yolov4/" \
+ --path_rgb_image "your_path/img_rgb_detection/" \
+ --res_dir "your_path/results_object_detection"
+```
+
+## Resultados qualitativos da segmentação de parafusos
+<p align="center">
+  <img width="400" height="400" src="results_object_detection/detecion_img_4.png">
+</p>
+
+
+
 # Modelo de Detecção de objetos
 
 ## Métricas do Modelo de Detecção (YOLOv4 - Darknet)
@@ -40,4 +70,8 @@ Para realizar a inferência do modelo de detecção pré-treinado no conjunto de
 <p align="center">
   <img width="400" height="400" src="results_object_detection/detecion_img_4.png">
 </p>
+
+
+
+
 
