@@ -36,5 +36,8 @@ Para realizar a inferência do modelo de detecção pré-treinado no conjunto de
  --res_dir "your_path/results_object_detection"
 ```
 
-## Resultados da detecção de cogumelos
+## Resultados qualitativos da detecção de cogumelos
+<p align="center">
+  <img width="400" height="400" src="gfx/counting_regions.PNG">
+</p>
 
