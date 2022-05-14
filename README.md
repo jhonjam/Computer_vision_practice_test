@@ -9,7 +9,7 @@ Este repositório contém uma implementação de segmentação semântica (Unet 
 
 # Modelo de Segmentação semantica
 
-para segmentação semântica crie um ambiente anaconda
+Para segmentação semântica crie um ambiente anaconda
 
 ```bash
 conda create -n myenv python=3.9
