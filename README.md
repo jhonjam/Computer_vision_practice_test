@@ -48,7 +48,7 @@ Para realizar a inferência do modelo de segmentação pré-treinado no conjunto
 
 ## Resultados qualitativos da segmentação de parafusos
 <p align="center">
-  <img width="400" height="400" src="results_object_detection/detecion_img_4.png">
+  <img width="400" height="400" src="results_object_segmentation/result_1.PNG">
 </p>
 
 
