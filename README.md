@@ -2,18 +2,25 @@
 Implementação de segmentação e detecção de objetos com CNN
 
 ## Conteúdo
-Este repositório contém uma implementação de segmentação semântica (Unet) para parafusos e um modelo de detecção de objetos (YOLOv4) para cogumelos. Os pesos estão disponíveis neste [link](https://drive.google.com/drive/folders/1ChtI9I-5SVqF6m0g9xwo6jp6fp71C7Yh?usp=sharing).
+Este repositório contém uma implementação de segmentação semântica (Unet + mobilinet) para parafusos e um modelo de detecção de objetos (YOLOv4) para cogumelos. Os pesos estão disponíveis neste [link](https://drive.google.com/drive/folders/1ChtI9I-5SVqF6m0g9xwo6jp6fp71C7Yh?usp=sharing).
 
 
+# Modelo de Segmentação semantica
 
+para segmentação semântica crie um ambiente anaconda
+
+```bash
+conda create -n myenv python=3.7
+conda activate myenv
+```
 ### Requerimentos e bibliotecas 
+
 Requerimentos de instalação 
 
 ```bash
 pip install -r requirements.txt
 ```
 
-# Modelo de Segmentação semantica
 
 ## Métricas do Modelo de segmentação (Unet)
 Foram usadas a metrica IoU (Intersection over union) para avaliar o modelo de segmentação.
