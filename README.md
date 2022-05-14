@@ -10,7 +10,7 @@ Este repositório contém uma implementação de segmentação semântica (Unet 
 para segmentação semântica crie um ambiente anaconda
 
 ```bash
-conda create -n myenv python=3.7
+conda create -n myenv python=3.9
 conda activate myenv
 ```
 ### Requerimentos e bibliotecas 
@@ -31,7 +31,7 @@ Foram usadas a metrica IoU (Intersection over union) para avaliar o modelo de se
 
 | Modelo        | IoU (%) | 
 | ------------- |-----:|
-| Unet         |70|
+| Unet - mobilinet         |72.1|
 
 
 
