@@ -60,6 +60,23 @@ Para realizar a inferência do modelo de segmentação pré-treinado no conjunto
 
 # Modelo de Detecção de objetos
 
+para segmentação semântica crie um ambiente anaconda
+
+```bash
+conda create -n myenv python=3.9
+conda activate myenv
+```
+### Requerimentos e bibliotecas 
+
+Requerimentos de instalação 
+
+```bash
+conda install -c conda-forge opencv
+conda install -c conda-forge matplotlib
+```
+
+
+
 ## Métricas do Modelo de Detecção (YOLOv4 - Darknet)
 Foram usadas as mtricas de Coco para avaliar o modelo de detecção.
 
