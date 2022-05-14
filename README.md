@@ -1,5 +1,5 @@
 # Segmentação e Detecção de objetos com CNN
-Implementação de segmentação e detecção de objetos com CNN
+Implementação de segmentação e detecção de objetos com CNN. 
 
 ## Conteúdo
 Este repositório contém uma implementação de segmentação semântica (Unet + mobilinet) para parafusos e um modelo de detecção de objetos (YOLOv4) para cogumelos. Os pesos estão disponíveis neste [link](https://drive.google.com/drive/folders/1ChtI9I-5SVqF6m0g9xwo6jp6fp71C7Yh?usp=sharing).
@@ -60,7 +60,7 @@ Para realizar a inferência do modelo de segmentação pré-treinado no conjunto
 
 # Modelo de Detecção de objetos
 
-para segmentação semântica crie um ambiente anaconda
+Para detecção de objetos crie um ambiente anaconda
 
 ```bash
 conda create -n myenv python=3.9
