@@ -19,7 +19,7 @@ pip install -r requirements.txt
 Foram usadas as mtricas de Coco para avaliar o modelo de detecção.
 
 | Modelo        | TP            | FP             | mAP (%) | 
-| ------------- |:-------------:| :-------------:|-----:   |
+| ------------- |:-------------:| :-------------:|-----:|
 | YOLOv4        | 60            | 54             |70   |
 
 
