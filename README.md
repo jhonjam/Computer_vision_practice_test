@@ -85,7 +85,7 @@ conda install -c conda-forge matplotlib
 
 
 ## Métricas do Modelo de Detecção (YOLOv4 - Darknet)
-Foram usadas as mtricas de Coco para avaliar o modelo de detecção.
+Foram usadas as metricas de Coco para avaliar o modelo de detecção.
 
 | Modelo - YOLOv4        | TP            | FP             | mAP (%) | 
 | ------------- |:-------------:| :-------------:|-----:|
