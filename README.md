@@ -1,14 +1,68 @@
-# Segmentação e Detecção de objetos com CNN
-Implementação de segmentação e detecção de objetos com CNN. 
+# Segmentação de objetos com HSV e Detecção de objetos com CNN
+Implementação de segmentação de parafuso com técnicas clássicas de processamento de imagem HSV e detecção de congumelos com CNN. 
 
-Para visualizar o código passo a passo e os resultados dos algoritmos propostos, é recomendável abrir **Visuailisations_object_detection.ipynb**  e **Visuailisations_object_segmentation.ipynb** 
+Para visualizar o código passo a passo e os resultados dos algoritmos propostos, é recomendável abrir **Visuailisations_object_detection.ipynb**  e **Visuailisations_object_segmentation_HSV.ipynb** 
 
 ## Conteúdo
-Este repositório contém uma implementação de segmentação semântica (Unet + mobilinet) para parafusos e um modelo de detecção de objetos (YOLOv4) para cogumelos. Os pesos estão disponíveis neste [link](https://drive.google.com/drive/folders/1ChtI9I-5SVqF6m0g9xwo6jp6fp71C7Yh?usp=sharing).
+Este repositório contém uma implementação de segmentação de parafuso com técnicas clássicas de processamento de imagem HSV  e um modelo de detecção de objetos (YOLOv4) para cogumelos. Os pesos estão disponíveis neste [link](https://drive.google.com/drive/folders/1ChtI9I-5SVqF6m0g9xwo6jp6fp71C7Yh?usp=sharing).
 
 
-# Modelo de Segmentação semantica
 
+# Modelo de Detecção de objetos
+
+Para detecção de objetos crie um ambiente anaconda
+
+```bash
+conda create -n myenv python=3.9
+conda activate myenv
+```
+### Requerimentos e bibliotecas 
+
+Requerimentos de instalação 
+
+```bash
+conda install -c conda-forge opencv
+conda install -c conda-forge matplotlib
+```
+
+
+
+## Métricas do Modelo de Detecção (YOLOv4 - Darknet)
+Foram usadas as metricas de Coco para avaliar o modelo de detecção. O modelo atingiu um mAP de 100% devido ao pequeno conjunto de testes, composto por 5 imagens. Sugere-se aumentar os conjuntos de treinamento, validação e teste.
+
+| Modelo - YOLOv4        | TP            | FP             | mAP (%) | 
+| ------------- |:-------------:| :-------------:|-----:|
+| Cantarelo        | 5            | 0             |100|
+| CoW        | 9            | 0             |100|
+
+
+
+
+## Inferência 
+Para realizar a inferência do modelo de detecção pré-treinado no conjunto de teste , execute:
+
+```bash
+!python main_detection.py \
+ --weight_folder "your_path/files_yolov4/" \
+ --path_rgb_image "your_path/img_rgb_detection/" \
+ --res_dir "your_path/results_object_detection"
+```
+
+## Resultados qualitativos da detecção de cogumelos
+<p align="center">
+  <img width="400" height="400" src="results_object_detection/detecion_img_1.png">
+</p>
+
+
+
+
+
+# Experimentos adicionais
+Um experimento adicional foi realizado para segmentação de parafusos usando CNN. Abaixo alguns resultados
+
+## Modelo de Segmentação semantica CNN
+
+segmentação semântica (Unet + mobilinet) para parafusos
 Para segmentação semântica crie um ambiente anaconda
 
 ```bash
@@ -65,50 +119,8 @@ Para realizar a inferência do modelo de segmentação pré-treinado no conjunto
 </p>
 
 
-# Modelo de Detecção de objetos
-
-Para detecção de objetos crie um ambiente anaconda
-
-```bash
-conda create -n myenv python=3.9
-conda activate myenv
-```
-### Requerimentos e bibliotecas 
-
-Requerimentos de instalação 
-
-```bash
-conda install -c conda-forge opencv
-conda install -c conda-forge matplotlib
-```
 
 
-
-## Métricas do Modelo de Detecção (YOLOv4 - Darknet)
-Foram usadas as metricas de Coco para avaliar o modelo de detecção. O modelo atingiu um mAP de 100% devido ao pequeno conjunto de testes, composto por 5 imagens. Sugere-se aumentar os conjuntos de treinamento, validação e teste.
-
-| Modelo - YOLOv4        | TP            | FP             | mAP (%) | 
-| ------------- |:-------------:| :-------------:|-----:|
-| Cantarelo        | 5            | 0             |100|
-| CoW        | 9            | 0             |100|
-
-
-
-
-## Inferência 
-Para realizar a inferência do modelo de detecção pré-treinado no conjunto de teste , execute:
-
-```bash
-!python main_detection.py \
- --weight_folder "your_path/files_yolov4/" \
- --path_rgb_image "your_path/img_rgb_detection/" \
- --res_dir "your_path/results_object_detection"
-```
-
-## Resultados qualitativos da detecção de cogumelos
-<p align="center">
-  <img width="400" height="400" src="results_object_detection/detecion_img_1.png">
-</p>
 
 
 
