@@ -107,7 +107,7 @@ Para realizar a inferência do modelo de detecção pré-treinado no conjunto de
 
 ## Resultados qualitativos da detecção de cogumelos
 <p align="center">
-  <img width="400" height="400" src="results_object_detection/detecion_img_4.png">
+  <img width="400" height="400" src="results_object_detection/detecion_img_1.png">
 </p>
 
 
