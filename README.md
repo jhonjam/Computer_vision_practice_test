@@ -31,11 +31,15 @@ Para executar o algoritmo use o arquivo:
 Visuailisations_object_segmentation_HSV.ipynb
 ```
 
-### Resultados qualitativos segmentação de parafuso
+
+### Resultados qualitativos da coordenada do pixel mais alto do objeto segmentado
 <p align="center">
-  <img width="400" height="400" src="results_object_detection/detecion_img_1.png">
+  <img width="200" height="200" src="result_object_segmentation_hsv/3.PNG">
 </p>
 
+<p align="center">
+  <img width="200" height="200" src="result_object_segmentation_hsv/3rgb.PNG">
+</p>
 
 
 
@@ -139,15 +143,15 @@ Para realizar a inferência do modelo de segmentação pré-treinado no conjunto
 
 ## Resultados qualitativos da coordenada do pixel mais alto do objeto segmentado
 <p align="center">
-  <img width="200" height="200" src="result_object_segmentation/result_2.PNG">
+  <img width="200" height="200" src="result_object_segmentation_cnn/result_2.PNG">
 </p>
 
 <p align="center">
-  <img width="200" height="200" src="result_object_segmentation/parafuso_pos_cor__3.png">
+  <img width="200" height="200" src="result_object_segmentation_cnn/parafuso_pos_cor__3.png">
 </p>
 
 <p align="center">
-  <img width="200" height="200" src="result_object_segmentation/parafuso_pos_bin__3.png">
+  <img width="200" height="200" src="result_object_segmentation_cnn/parafuso_pos_bin__3.png">
 </p>
 
 
