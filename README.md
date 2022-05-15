@@ -6,6 +6,38 @@ Para visualizar o código passo a passo e os resultados dos algoritmos propostos
 ## Conteúdo
 Este repositório contém uma implementação de segmentação de parafuso com técnicas clássicas de processamento de imagem HSV  e um modelo de detecção de objetos (YOLOv4) para cogumelos. Os pesos estão disponíveis neste [link](https://drive.google.com/drive/folders/1ChtI9I-5SVqF6m0g9xwo6jp6fp71C7Yh?usp=sharing).
 
+# Segmentação de parafuso com HSV
+
+Para segmentação de parafuso crie um ambiente anaconda
+
+```bash
+conda create -n myenv python=3.9
+conda activate myenv
+```
+### Requerimentos e bibliotecas 
+
+Requerimentos de instalação 
+
+```bash
+conda install -c conda-forge opencv
+conda install -c conda-forge matplotlib
+conda install -c anaconda numpy
+```
+
+## Inferência 
+Para executar o algoritmo use o arquivo:
+
+```bash
+Visuailisations_object_segmentation_HSV.ipynb
+```
+
+### Resultados qualitativos segmentação de parafuso
+<p align="center">
+  <img width="400" height="400" src="results_object_detection/detecion_img_1.png">
+</p>
+
+
+
 
 
 # Modelo de Detecção de objetos
