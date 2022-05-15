@@ -98,7 +98,7 @@ Um experimento adicional foi realizado para segmentação de parafusos usando CN
 
 ## Modelo de Segmentação semantica CNN
 
-segmentação semântica (Unet + mobilinet) para parafusos
+segmentação semântica (Unet + Resnet) para parafusos
 Para segmentação semântica crie um ambiente anaconda
 
 ```bash
