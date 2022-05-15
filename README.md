@@ -138,7 +138,7 @@ Para realizar a inferência do modelo de segmentação pré-treinado no conjunto
 ```
 ## Resultados qualitativos da segmentação de parafusos
 <p align="center">
-  <img width="400" height="200" src="result_object_segmentation/result_1.PNG">
+  <img width="400" height="200" src="result_object_segmentation_cnn/result_1.PNG">
 </p>
 
 ## Resultados qualitativos da coordenada do pixel mais alto do objeto segmentado
