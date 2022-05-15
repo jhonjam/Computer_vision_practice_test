@@ -85,12 +85,12 @@ conda install -c conda-forge matplotlib
 
 
 ## Métricas do Modelo de Detecção (YOLOv4 - Darknet)
-Foram usadas as metricas de Coco para avaliar o modelo de detecção.
+Foram usadas as metricas de Coco para avaliar o modelo de detecção. O modelo atingiu um mAP de 100% devido ao pequeno conjunto de testes, composto por 5 imagens. Sugere-se aumentar os conjuntos de treinamento, validação e teste.
 
 | Modelo - YOLOv4        | TP            | FP             | mAP (%) | 
 | ------------- |:-------------:| :-------------:|-----:|
-| Cantarelo        | 60            | 54             |70|
-| CoW        | 60            | 54             |70|
+| Cantarelo        | 5            | 0             |100|
+| CoW        | 9            | 0             |100|
 
 
 
