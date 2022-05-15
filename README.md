@@ -112,5 +112,9 @@ Para realizar a inferência do modelo de detecção pré-treinado no conjunto de
 
 
 
+**Na pasta scripts_train_models_colab você encontra os arquivos .inpy para o treinamento dos modelos de segmentação e detecção de objetos executados na plataforma [google colab](https://colab.research.google.com/).**
+
+
+
 
 
