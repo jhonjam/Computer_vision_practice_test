@@ -32,7 +32,7 @@ Foram usadas a metrica IoU (Intersection over union) para avaliar o modelo de se
 
 | Modelo        | IoU (%) | 
 | ------------- |-----:|
-| Unet - mobilinet         |72.1|
+| Unet - mobilinet         |74.1|
 
 
 
