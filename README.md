@@ -142,6 +142,9 @@ Para realizar a inferência do modelo de segmentação pré-treinado no conjunto
 </p>
 
 ## Resultados qualitativos da coordenada do pixel mais alto do objeto segmentado
+
+É importante dizer que as imagens de entrada para o modelo foram redimensionadas
+
 <p align="center">
   <img width="200" height="200" src="result_object_segmentation_cnn/result_2.PNG">
 </p>
